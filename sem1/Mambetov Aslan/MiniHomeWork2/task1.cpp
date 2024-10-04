@@ -37,4 +37,5 @@ int main() {
     std::cout << "\nВведите систему счисления в которую хотите перевести: ";
     std::cin >> sys;
     std::cout << "\nРезультат: " << convertNumber(n, sys) << "\n";
+    return 0;
 }
