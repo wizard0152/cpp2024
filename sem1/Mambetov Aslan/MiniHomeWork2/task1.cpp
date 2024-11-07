@@ -19,9 +19,8 @@ std::string convertNumber(long long num, int system) {
     reverse(rests.begin(), rests.end());
 
     for (auto rest : rests) 
-    {
         result += digits[rest];
-    }
+
     return result;
 }   
 
